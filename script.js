@@ -17,11 +17,13 @@ function limpar() {
   expressao = "";
   console.log(expressao);
   document.getElementById("visor").value = expressao;
+  document.getElementById('ultima-conta').innerText = '';
 }
 
 function calcular() {
   try {
     const resultado = eval(expressao);
+    document.getElementById('ultima-conta').innerText = expressao + " =";
     document.getElementById("visor").value = resultado;
     expressao = resultado;
   } catch (error) {
