@@ -24,12 +24,9 @@ function calcular() {
     const resultado = eval(expressao);
     document.getElementById('ultima-conta').innerText = expressao + " =";
     document.getElementById("visor").value = resultado;
-    
+    expressao = "";
   } catch (error) {
     document.getElementById("visor").value = "Erro";
-    
+    expressao = "";
   }
-
-  expressao = '';
 }
-
