@@ -44,14 +44,13 @@ flex-wrap: wrap;
 grid-gap: 10px;
 }
 
-button{
+.calculadora button{
     border: 0;
     border-radius: 20px;
     cursor: pointer;
     font-size: 25px;
     padding: 20px;
     width: 20%;
-
     box-shadow: 0px 0px 10px #3d3c3c70
-
 } 
+

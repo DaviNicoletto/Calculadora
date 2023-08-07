@@ -15,7 +15,6 @@ function inserirOp(operador) {
 
 function limpar() {
   expressao = "";
-  console.log(expressao);
   document.getElementById("visor").value = expressao;
   document.getElementById('ultima-conta').innerText = '';
 }
@@ -31,3 +30,4 @@ function calcular() {
     expressao = "";
   }
 }
+
